@@ -20,6 +20,7 @@ Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite
     - [Modificadores](#modificadores)
       - [Positivo](#modificador-positivo)
       - [Negativo](#modificador-negativo)
+    - [Batalha](#hora-da-briga)
   - [Controle de dano](#controle-de-dano)
 
 ---
@@ -39,7 +40,6 @@ Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite
 [Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
 
 ### Inicio de uma disputa
-[Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
 
 O mestre deve enviar 'iniciativa' e aparecerá a seguinte resposta:
 
@@ -48,7 +48,6 @@ Jogadores, rolem iniciativa!!!
 ```
 
 ### Jogadores entrando
-[Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
 
 Em seguida os jogadores enviam '!' seguido do seu bônus e receberam o valor da sua iniciativa para aquela batalha
 
@@ -57,35 +56,35 @@ Em seguida os jogadores enviam '!' seguido do seu bônus e receberam o valor da 
 ```
 
 ### NPCS
-[Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
 
-Para adicionar um npc na batalha, basta inserir o nome dele antes da '!'. Exemplo: monstro!
+Para adcionar um npc na batalha, basta inserir o nome dele antes da '!'. Exemplo: monstro!
 
 ```
 Monstro: 18 ⟷  [18]1d20 + 0
 ```
 
 ### Modificadores
-[Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
 
-Os detalhes a seguir se aplicam a jogadores e npcs.
+Os detalhes a seguir se aplicam a jogadores e monstros.
 
 #### Modificador positivo
-[Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
 
-Se meu personagem possui +3 de bônus de iniciativa, por exemplo !3
+Se meu personagem possui +3 de bônus de iniciativa por exemplo, use !3
 ```
 12 ⟷ [9]1d20 + 3
 ```
 >**IMPORTANTE: Não é necessário incluir o + caso seu bônus seja positivo.**
 
 #### Modificador negativo
-[Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
 
-Caso seja negativo adicionar o sinal -, por exemplo: !-3
+Caso seja negativo adicionar o sinal - por exemplo, use !-3
+
 ```
 2 ⟷ [5]1d20 - 3
 ```
+
+### Hora da Briga
+
 Depois de todos participantes rolarem suas iniciativas basta enviar 'batalha' para ver a ordem de combate e o dano sofrido de cada participante
 ```
 Ordem de combate:
