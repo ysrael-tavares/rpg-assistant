@@ -18,7 +18,7 @@ Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite
 
 ## Iniciativa
 
-Inicio de uma disputa o mestre deve enviar 'iniciativa'.
+Inicio de uma disputa o mestre deve enviar 'iniciativa' e aparecerá a seguinte resposta:
 ```
 Jogadores, rolem iniciativa!!!
 ```
