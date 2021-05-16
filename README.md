@@ -31,6 +31,7 @@ Se meu personagem possui +3 de bônus de iniciativa, por exemplo !3
 12 ⟷ [9]1d20 + 3
 ```
 >**IMPORTANTE: Não é necessário incluir o + caso seu bônus seja positivo.**
+
 Caso seja negativo adicionar o sinal -, por exemplo: !-3
 ```
 2 ⟷ [5]1d20 - 3
