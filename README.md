@@ -1,5 +1,11 @@
 # [BDK] RPG ASSISTANT - BOT DE AUXILIO RPG 🤖
 
+Seja bem-vindo ao manual do [BDK] RPG ASSISTANT.
+
+Este bot tem o intuito de deixar a jogatina a distância um pouco mais simples.
+
+Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite em entrar em contato no https://www.instagram.com/bdk_rpg/ .
+
 ## Rolagem de dados 🎲
 
 * Rolagem normal -> 1d20
@@ -7,6 +13,8 @@
 * Rolagem com vantagem(Adicionar * no final) -> 1d20+5*
 * Rolagem com desvantagem(Adicionar / no final) -> 1d20+5/
 * Rolagem múltipla, basta adicionar a quantidade de vezes seguida de # -> 2#d20+5
+
+>**IMPORTANTE: O número máximo de dados e faces permitidas é 100, acima disso o Bot ira considerar como 1.**
 
 ## Iniciativa
 
@@ -74,5 +82,36 @@ Ordem de combate:
 6 - Jogador 1 (0)
 ```
 
-## Frases de ko
-## Frases de renascimento
+Para declarar um participante como incapacitado na batalha basta enviar o mesmo comando de dano apenas substituindo o dano por 'ko' (2$ko).
+
+>Bônus: Quando um participante é incapacitado, uma frase ou brincadeira é enviada enfatizando o ocorrido.
+
+```
+Jogador 3 foi um(a) guerreiro(a) que um dia sonhou com a paz.
+
+Ordem de combate:
+
+1 - Monstro 1 (0) 
+2 - Jogador 3 (0) (K.O)
+3 - Monstro 2 (2) 
+4 - Monstro 3 (0) 
+5 - Jogador 2 (0) 
+6 - Jogador 1 (0)
+```
+
+Mas a morte nem sempre é o fim, você sempre pode contar com aquele clérigo gente boa que vai te prestar socorro e em casos mais extremos, trazer você de volta a vida. Nessa ocasião basta substituir o dano/cura por 'revive' (2$revive).
+
+>Bônus: Quando um participante é revivido, uma frase ou brincadeira é enviada enfatizando o ocorrido.
+
+```
+Jogador 3 deve se fazer uma pergunta: 'Estou com sorte?' 
+
+Ordem de combate:
+
+1 - Monstro 1 (0) 
+2 - Jogador 3 (0) 
+3 - Monstro 2 (2)
+4 - Monstro 3 (0) 
+5 - Jogador 2 (0) 
+6 - Jogador 1 (0)
+```
