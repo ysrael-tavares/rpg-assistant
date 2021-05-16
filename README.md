@@ -106,9 +106,9 @@ Ordem de combate:
 
 Para controle de dano é usado o simbolo $ em conjunto com as informações da ordem de combate.
 
-Para causar dano a um participante da batalha deve inserir a posição dele que é a primeira coluna do exemplo:
-
 ### Causando dano
+
+Para causar dano a um participante da batalha deve inserir a posição dele que é a primeira coluna do exemplo:
 
 Para causar 5 de dano ao Monstro 2, basta enviar no chat 3$5.
 
