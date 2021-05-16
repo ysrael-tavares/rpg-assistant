@@ -2,9 +2,9 @@
 
 Seja bem-vindo ao manual do [BDK] RPG ASSISTANT.
 
-Este bot tem o intuito de deixar a jogatina a distância um pouco mais simples.
+Este bot tem o intuito de deixar a jogatina a distância um pouco mais simples, no momento conta com apenas essas funções mas olha só, um spoiler, enquanto você lê isso outras funções estão sendo desenvolvidas, acompanhe nosso [Instagram](https://www.instagram.com/bdk_rpg/) para não perder nenhuma novidade.
 
-Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite em entrar em contato no https://www.instagram.com/bdk_rpg/ .
+Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite em entrar em contato no nossa [página](https://www.instagram.com/bdk_rpg/).
 
 ## Rolagem de dados 🎲
 
@@ -30,7 +30,8 @@ Se meu personagem possui +3 de bônus de iniciativa, por exemplo !3
 ```
 12 ⟷ [9]1d20 + 3
 ```
-Caso seja negativo adicionar o sinal '-', por exemplo: !-3
+>**IMPORTANTE: Não é necessário incluir o + caso seu bônus seja positivo.**
+Caso seja negativo adicionar o sinal -, por exemplo: !-3
 ```
 2 ⟷ [5]1d20 - 3
 ```
@@ -83,9 +84,6 @@ Ordem de combate:
 ```
 
 Para declarar um participante como incapacitado na batalha basta enviar o mesmo comando de dano apenas substituindo o dano por 'ko' (2$ko).
-
->Bônus: Quando um participante é incapacitado, uma frase ou brincadeira é enviada enfatizando o ocorrido.
-
 ```
 Jogador 3 foi um(a) guerreiro(a) que um dia sonhou com a paz.
 
@@ -99,9 +97,9 @@ Ordem de combate:
 6 - Jogador 1 (0)
 ```
 
-Mas a morte nem sempre é o fim, você sempre pode contar com aquele clérigo gente boa que vai te prestar socorro e em casos mais extremos, trazer você de volta a vida. Nessa ocasião basta substituir o dano/cura por 'revive' (2$revive).
+>Bônus: Quando um participante é incapacitado, uma frase ou brincadeira é enviada enfatizando o ocorrido.
 
->Bônus: Quando um participante é revivido, uma frase ou brincadeira é enviada enfatizando o ocorrido.
+Mas a morte nem sempre é o fim, você sempre pode contar com aquele clérigo gente boa que vai te prestar socorro e em casos mais extremos, trazer você de volta a vida. Nessa ocasião basta substituir o dano/cura por 'revive' (2$revive).
 
 ```
 Jogador 3 deve se fazer uma pergunta: 'Estou com sorte?' 
@@ -115,3 +113,5 @@ Ordem de combate:
 5 - Jogador 2 (0) 
 6 - Jogador 1 (0)
 ```
+
+>Bônus: Quando um participante é revivido, uma frase ou brincadeira é enviada enfatizando o ocorrido.
