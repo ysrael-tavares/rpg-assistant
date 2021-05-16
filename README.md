@@ -1,4 +1,4 @@
-# [BDK] RPG ASSISTANT - BOT DE AUXILIO RPG 🤖
+# [BDK] RPG ASSISTANT - BOT DE AUXILIO RPG
 
 Seja bem-vindo ao manual do [BDK] RPG ASSISTANT.
 
@@ -6,7 +6,16 @@ Este bot tem o intuito de deixar a jogatina a distância um pouco mais simples, 
 
 Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite em entrar em contato no nossa [página](https://www.instagram.com/bdk_rpg/).
 
-## Rolagem de dados 🎲
+## Menu Rápido
+
+  - [Rolagem de dados](#rolagem-de-dados)
+  - [Iniciativa](#iniciativa)
+  - [Controle de dano](#controle-de-dano)
+
+---
+
+## Rolagem de dados
+[Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
 
 * Rolagem normal -> 1d20
 * Rolagem com modificadores -> 1d20+5
@@ -17,6 +26,7 @@ Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite
 >**IMPORTANTE: O número máximo de dados e faces permitidas é 100, acima disso o Bot ira considerar como 1.**
 
 ## Iniciativa
+[Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
 
 Inicio de uma disputa o mestre deve enviar 'iniciativa' e aparecerá a seguinte resposta:
 ```
@@ -48,7 +58,8 @@ Ordem de combate:
 6 - Jogador 1 (0)
 ```
 
-## Controle de dano ⚔️
+## Controle de dano
+[Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
 
 Para controle de dano é usado o simbolo $ em conjunto com as informações da ordem de combate.
 
@@ -116,3 +127,5 @@ Ordem de combate:
 ```
 
 >Bônus: Quando um participante é revivido, uma frase ou brincadeira é enviada enfatizando o ocorrido.
+
+[Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
