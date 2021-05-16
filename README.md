@@ -8,7 +8,7 @@ Este bot tem o intuito de deixar a jogatina a distância um pouco mais simples, 
 
 Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite em entrar em contato na nossa [página](https://www.instagram.com/bdk_rpg/).
 
-> Entre no nosso servidor no [Discord](https://discord.gg/XuNnEwYbx4)
+> ## Entre no nosso servidor no [Discord](https://discord.gg/XuNnEwYbx4)
 
 ## Menu Rápido
 
