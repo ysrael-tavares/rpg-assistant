@@ -22,6 +22,10 @@ Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite
       - [Negativo](#modificador-negativo)
     - [Batalha](#hora-da-briga)
   - [Controle de dano](#controle-de-dano)
+    - [Causando dano](#causando-dano)
+    - [Recebendo cura](#recebendo-cura)
+    - [Desmaio/Morte](#o-participante-caiu)
+    - [Retornando a luta](#voltando-a-luta)
 
 ---
 
@@ -104,6 +108,8 @@ Para controle de dano é usado o simbolo $ em conjunto com as informações da o
 
 Para causar dano a um participante da batalha deve inserir a posição dele que é a primeira coluna do exemplo:
 
+### Causando dano
+
 Para causar 5 de dano ao Monstro 2, basta enviar no chat 3$5.
 
 ```
@@ -118,6 +124,8 @@ Ordem de combate:
 5 - Jogador 2 (0) 
 6 - Jogador 1 (0)
 ```
+
+### Recebendo cura
 
 De forma semelhante para cura, devendo apenas adicionar o valor negativo (3$-3).
 
@@ -134,6 +142,8 @@ Ordem de combate:
 6 - Jogador 1 (0)
 ```
 
+### O participante caiu
+
 Para declarar um participante como incapacitado na batalha basta enviar o mesmo comando de dano apenas substituindo o dano por 'ko' (2$ko).
 ```
 Jogador 3 foi um(a) guerreiro(a) que um dia sonhou com a paz.
@@ -149,6 +159,8 @@ Ordem de combate:
 ```
 
 >Bônus: Quando um participante é incapacitado, uma frase ou brincadeira é enviada enfatizando o ocorrido.
+
+### Voltando a luta
 
 Mas a morte nem sempre é o fim, você sempre pode contar com aquele clérigo gente boa que vai te prestar socorro e em casos mais extremos, trazer você de volta a vida. Nessa ocasião basta substituir o dano/cura por 'revive' (2$revive).
 
