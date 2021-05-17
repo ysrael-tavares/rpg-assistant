@@ -20,6 +20,7 @@ Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite
     - [Modificadores](#modificadores)
       - [Positivo](#modificador-positivo)
       - [Negativo](#modificador-negativo)
+      - [Valor pré-definido](#valor-pré-definido)
     - [Batalha](#hora-da-briga)
   - [Controle de dano](#controle-de-dano)
     - [Causando dano](#causando-dano)
@@ -92,7 +93,7 @@ Caso seja negativo adicionar o sinal - por exemplo, use **ini -3**
 Para usar um valor pré-definido de iniciativa ao invés de uma rolagem, baste inserir o valor entre (), exemplo: **ini (15)**
 
 ```
-Iniciativa: 15
+15 ⟷ Pré-definido
 ```
 
 > Todos os casos acima são validos para NPCS, apenas use um '.' para separar, exemplo: **ini monstro.+3** ou **ini monstro.(10)**
@@ -100,8 +101,6 @@ Iniciativa: 15
 ```
 Monstro: 18 ⟷  [15]1d20 + 3
 ```
-
-> Extra: Para ver o valor de Iniciativa dos participantes envie **batalha.i**
 
 ### Hora da Briga
 
@@ -116,6 +115,8 @@ Ordem de combate:
 5 - Jogador 2 (0) 
 6 - Jogador 1 (0)
 ```
+
+> Extra: Para ver o valor de Iniciativa dos participantes envie **batalha.i**
 
 ## Controle de dano
 [Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
