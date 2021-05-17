@@ -45,7 +45,7 @@ Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite
 
 ### Inicio de uma disputa
 
-O mestre deve enviar 'iniciativa' e aparecerá a seguinte resposta:
+O mestre deve enviar **iniciativa** e aparecerá a seguinte resposta:
 
 ```
 Jogadores, rolem iniciativa!!!
@@ -53,7 +53,7 @@ Jogadores, rolem iniciativa!!!
 
 ### Jogadores entrando
 
-Em seguida os jogadores enviam '!' seguido do seu bônus e receberam o valor da sua iniciativa para aquela batalha
+Em seguida os jogadores enviam **ini** seguido do seu bônus e receberá o valor da sua iniciativa para aquela batalha
 
 ```
 13 ⟷ [13]1d20 + 0 
@@ -61,7 +61,7 @@ Em seguida os jogadores enviam '!' seguido do seu bônus e receberam o valor da 
 
 ### NPCS
 
-Para adcionar um npc na batalha, basta inserir o nome dele antes da '!'. Exemplo: monstro!
+Para adcionar um npc na batalha, basta inserir o nome dele após o 'ini'. Exemplo: **ini monstro**
 
 ```
 Monstro: 18 ⟷  [18]1d20 + 0
@@ -69,23 +69,39 @@ Monstro: 18 ⟷  [18]1d20 + 0
 
 ### Modificadores
 
-Os detalhes a seguir se aplicam a jogadores e monstros.
+Os detalhes a seguir se aplicam a jogadores e npcs.
 
 #### Modificador positivo
 
-Se meu personagem possui +3 de bônus de iniciativa por exemplo, use !3
+Se meu personagem possui +3 de bônus de iniciativa por exemplo, use **ini +3**.
+
 ```
 12 ⟷ [9]1d20 + 3
 ```
->**IMPORTANTE: Não é necessário incluir o + caso seu bônus seja positivo.**
 
 #### Modificador negativo
 
-Caso seja negativo adicionar o sinal - por exemplo, use !-3
+Caso seja negativo adicionar o sinal - por exemplo, use **ini -3**
 
 ```
 2 ⟷ [5]1d20 - 3
 ```
+
+#### Valor pré-definido
+
+Para usar um valor pré-definido de iniciativa ao invés de uma rolagem, baste inserir o valor entre (), exemplo: **ini (15)**
+
+```
+Iniciativa: 15
+```
+
+> Todos os casos acima são validos para NPCS, apenas use um '.' para separar, exemplo: **ini monstro.+3** ou **ini monstro.(10)**
+
+```
+Monstro: 18 ⟷  [15]1d20 + 3
+```
+
+> Extra: Para ver o valor de Iniciativa dos participantes envie **batalha.i**
 
 ### Hora da Briga
 
