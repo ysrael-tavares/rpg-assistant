@@ -80,7 +80,7 @@ Os detalhes a seguir se aplicam a jogadores e npcs.
 
 #### Modificador positivo
 
-Se meu personagem possui +3 de bônus de iniciativa por exemplo, use **ini +5**.
+Se meu personagem possui +5 de bônus de iniciativa por exemplo, use **ini +5**.
 
 ![](imagens/ini+.png)
 
