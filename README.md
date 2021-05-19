@@ -2,13 +2,15 @@
 
 Seja bem-vindo ao manual do [BDK] RPG ASSISTANT.
 
-> ## Adicione o bot ao seu servidor clicando [aqui](http://bit.ly/3uTC70q)
+> ## Adicione o bot ao seu servidor clicando [aqui](http://bit.ly/3uTC70q).
 
-> ## Entre no nosso servidor no [Discord](https://discord.gg/XuNnEwYbx4)
+> ## Entre no nosso servidor no [Discord](https://discord.gg/XuNnEwYbx4).
+
+> ## Siga nosso [Instagram](https://www.instagram.com/bdk_rpg/).
 
 Este bot tem o intuito de deixar a jogatina a distância um pouco mais simples, no momento conta com apenas essas funções mas olha só, um spoiler, enquanto você lê isso outras funções estão sendo desenvolvidas, acompanhe nosso [Instagram](https://www.instagram.com/bdk_rpg/) para não perder nenhuma novidade.
 
-Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite em entrar em contato na nossa [página](https://www.instagram.com/bdk_rpg/).
+Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite em entrar em contato em um dos canais mencionados acima.
 
 ## Menu Rápido
 
@@ -21,12 +23,14 @@ Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite
       - [Positivo](#modificador-positivo)
       - [Negativo](#modificador-negativo)
       - [Valor pré-definido](#valor-pré-definido)
+    - [Hordas](#hordas)
     - [Batalha](#hora-da-briga)
   - [Controle de dano](#controle-de-dano)
     - [Causando dano](#causando-dano)
     - [Recebendo cura](#recebendo-cura)
     - [Desmaio/Morte](#o-participante-caiu)
     - [Retornando a luta](#voltando-a-luta)
+    - [Comandos em massa](#danocura-em-massa)
 
 ---
 
@@ -56,25 +60,19 @@ Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite
 
 O mestre deve enviar **iniciativa** e aparecerá a seguinte resposta:
 
-```
-Jogadores, rolem iniciativa!!!
-```
+![](imagens/iniciativa.png)
 
 ### Jogadores entrando
 
 Em seguida os jogadores enviam **ini** seguido do seu bônus e receberá o valor da sua iniciativa para aquela batalha
 
-```
-13 ⟷ [13]1d20 + 0 
-```
+![](imagens/ini.png)
 
 ### NPCS
 
 Para adcionar um npc na batalha, basta inserir o nome dele após o 'ini'. Exemplo: **ini monstro**
 
-```
-Monstro: 18 ⟷  [18]1d20 + 0
-```
+![](imagens/monstro.png)
 
 ### Modificadores
 
@@ -82,49 +80,43 @@ Os detalhes a seguir se aplicam a jogadores e npcs.
 
 #### Modificador positivo
 
-Se meu personagem possui +3 de bônus de iniciativa por exemplo, use **ini +3**.
+Se meu personagem possui +3 de bônus de iniciativa por exemplo, use **ini +5**.
 
-```
-12 ⟷ [9]1d20 + 3
-```
+![](imagens/ini+.png)
 
 #### Modificador negativo
 
-Caso seja negativo adicionar o sinal - por exemplo, use **ini -3**
+Caso seja negativo adicionar o sinal - por exemplo, use **ini -5**
 
-```
-2 ⟷ [5]1d20 - 3
-```
+![](imagens/ini-.png)
 
 #### Valor pré-definido
 
 Para usar um valor pré-definido de iniciativa ao invés de uma rolagem, baste inserir o valor entre (), exemplo: **ini (15)**
 
-```
-15 ⟷ Pré-definido
-```
+![](imagens/ini().png)
 
 > Todos os casos acima são validos para NPCS, apenas use um '.' para separar, exemplo: **ini monstro.+3** ou **ini monstro.(10)**
 
-```
-Monstro: 18 ⟷  [15]1d20 + 3
-```
+![](imagens/ini-monstro+.png)
+
+![](imagens/ini-monstro().png)
+
+#### Hordas
+
+Para adicionar mais de um npc simultâneo use a quantidade seguida de um # e nome do monstro, exemplo: **ini 3#orc.+2**
+
+![](imagens/horda.png)
 
 ### Hora da Briga
 
 Depois de todos participantes rolarem suas iniciativas basta enviar 'batalha' para ver a ordem de combate e o dano sofrido de cada participante
-```
-Ordem de combate:
 
-1 - Monstro 1 (0) 
-2 - Jogador 3 (0) 
-3 - Monstro 2 (0) 
-4 - Monstro 3 (0) 
-5 - Jogador 2 (0) 
-6 - Jogador 1 (0)
-```
+![](imagens/batalha.png)
 
 > Extra: Para ver o valor de Iniciativa dos participantes envie **batalha.i**
+>
+> ![](imagens/batalha-i.png)
 
 ## Controle de dano
 [Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
@@ -135,73 +127,46 @@ Para controle de dano é usado o simbolo $ em conjunto com as informações da o
 
 Para causar dano a um participante da batalha deve inserir a posição dele que é a primeira coluna do exemplo:
 
-Para causar 5 de dano ao Monstro 2, basta enviar no chat 3$5.
+Para causar 5 de dano ao Goblin, basta enviar no chat **1$5**.
 
-```
-Monstro 2 sofreu 5 de dano!
-
-Ordem de combate:
-
-1 - Monstro 1 (0) 
-2 - Jogador 3 (0) 
-3 - Monstro 2 (5) 
-4 - Monstro 3 (0) 
-5 - Jogador 2 (0) 
-6 - Jogador 1 (0)
-```
+![](imagens/dano.png)
 
 ### Recebendo cura
 
-De forma semelhante para cura, devendo apenas adicionar o valor negativo (3$-3).
+De forma semelhante para cura, devendo apenas adicionar o valor negativo (1$-2).
 
-```
-Monstro 2 recuperou 3 pontos de vida!
-
-Ordem de combate:
-
-1 - Monstro 1 (0) 
-2 - Jogador 3 (0) 
-3 - Monstro 2 (2) 
-4 - Monstro 3 (0) 
-5 - Jogador 2 (0) 
-6 - Jogador 1 (0)
-```
+![](imagens/cura.png)
 
 ### O participante caiu
 
-Para declarar um participante como incapacitado na batalha basta enviar o mesmo comando de dano apenas substituindo o dano por 'ko' (2$ko).
-```
-Jogador 3 foi um(a) guerreiro(a) que um dia sonhou com a paz.
+Para declarar um participante como incapacitado na batalha basta enviar o mesmo comando de dano apenas substituindo o dano por 'ko' (4$ko).
 
-Ordem de combate:
-
-1 - Monstro 1 (0) 
-2 - Jogador 3 (0) (K.O)
-3 - Monstro 2 (2) 
-4 - Monstro 3 (0) 
-5 - Jogador 2 (0) 
-6 - Jogador 1 (0)
-```
+![](imagens/ko.png)
 
 >Bônus: Quando um participante é incapacitado, uma frase ou brincadeira é enviada enfatizando o ocorrido.
 
 ### Voltando a luta
 
-Mas a morte nem sempre é o fim, você sempre pode contar com aquele clérigo gente boa que vai te prestar socorro e em casos mais extremos, trazer você de volta a vida. Nessa ocasião basta substituir o dano/cura por 'revive' (2$revive).
+Mas a morte nem sempre é o fim, você sempre pode contar com aquele clérigo gente boa que vai te prestar socorro e em casos mais extremos, trazer você de volta a vida. Nessa ocasião basta substituir o dano/cura por 'revive' (4$revive).
 
-```
-Jogador 3 deve se fazer uma pergunta: 'Estou com sorte?' 
-
-Ordem de combate:
-
-1 - Monstro 1 (0) 
-2 - Jogador 3 (0) 
-3 - Monstro 2 (2)
-4 - Monstro 3 (0) 
-5 - Jogador 2 (0) 
-6 - Jogador 1 (0)
-```
+![](imagens/revive.png)
 
 >Bônus: Quando um participante é revivido, uma frase ou brincadeira é enviada enfatizando o ocorrido.
+
+### Dano/Cura em massa
+
+Os comando citados acima podem ser usados em mais de um participante por vez. Basta utilizar uma virgula para separar suas colocações.
+
+Exemplo: O goblin e o kobold acabaram de receber uma bola de fogo na cabeça e foram conhecer seus respectivos criadores, envie **1,6$ko**.
+
+![](imagens/ko-em-massa.png)
+
+Da mesma forma os outros comandos:
+
+![](imagens/dano-em-massa.png)
+
+![](imagens/revive-em-massa.png)
+
+![](imagens/cura-em-massa.png)
 
 [Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
