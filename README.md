@@ -34,9 +34,12 @@ Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite
 [Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
 
 > **IMPORTANTE:** Agora por padrão as rolagens de DADOS (EX: 1d20) estão desativadas devido vários usuários preferirem usar rolagens de bots já existentes.
+> 
 > Caso queira usar a rolagem do nosso bot basta enviar no canal em que deseja usa-lo o comando **.rolagem**
+> 
 > Para desativar as rolagens em um canal basta enviar **.desativa-rolagem**
-> Para consultar o status atual dessa opção envie **.status-rolagem**
+>
+>  Para consultar o status atual dessa opção envie **.status-rolagem**
 
 * Rolagem normal -> 1d20
 * Rolagem com modificadores -> 1d20+5
