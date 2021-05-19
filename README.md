@@ -4,11 +4,11 @@ Seja bem-vindo ao manual do [BDK] RPG ASSISTANT.
 
 > ## Adicione o bot ao seu servidor clicando [aqui](http://bit.ly/3uTC70q)
 
+> ## Entre no nosso servidor no [Discord](https://discord.gg/XuNnEwYbx4)
+
 Este bot tem o intuito de deixar a jogatina a distância um pouco mais simples, no momento conta com apenas essas funções mas olha só, um spoiler, enquanto você lê isso outras funções estão sendo desenvolvidas, acompanhe nosso [Instagram](https://www.instagram.com/bdk_rpg/) para não perder nenhuma novidade.
 
 Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite em entrar em contato na nossa [página](https://www.instagram.com/bdk_rpg/).
-
-> ## Entre no nosso servidor no [Discord](https://discord.gg/XuNnEwYbx4)
 
 ## Menu Rápido
 
