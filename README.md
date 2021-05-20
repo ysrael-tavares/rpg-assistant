@@ -14,7 +14,7 @@ Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite
 
 ## Menu Rápido
 
-  - [Rolagem de dados](#rolagem-de-dados)
+  - [Rolagem de dados(Opcional)](#rolagem-de-dados)
   - [Iniciativa](#iniciativa)
     - [Começando](#inicio-de-uma-disputa)
     - [Jogadores](#jogadores-entrando)
