@@ -123,6 +123,12 @@ Depois de todos participantes rolarem suas iniciativas basta enviar 'batalha' pa
 
 Para controle de dano é usado o simbolo $ em conjunto com as informações da ordem de combate.
 
+### Vida máxima dos jogadores
+
+Para facilitar ainda mais o controle do Hp dos jogadores para o mestre, basta pedir que cada um dos seus jogadores envie apenas uma vez o comando **.vida** seguido do valor máximo de vida deles.
+
+A partir do envio deste comando **TODAS** as batalhas que este jogador participar neste canal será exibida a sua vida máxima e sua vida atual.
+
 ### Causando dano
 
 Para causar dano a um participante da batalha deve inserir a posição dele que é a primeira coluna do exemplo:
