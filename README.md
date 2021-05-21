@@ -26,6 +26,7 @@ Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite
     - [Hordas](#hordas)
     - [Batalha](#hora-da-briga)
   - [Controle de dano](#controle-de-dano)
+    - [Definindo a vida máxima](#vida-maxima-jogadores)
     - [Causando dano](#causando-dano)
     - [Recebendo cura](#recebendo-cura)
     - [Desmaio/Morte](#o-participante-caiu)
