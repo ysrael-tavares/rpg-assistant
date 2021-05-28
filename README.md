@@ -14,7 +14,7 @@ Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite
 
 ## Menu Rápido
 
-  - [Rolagem de dados(Opcional)](#rolagem-de-dados)
+  - [Rolagem de dados](#rolagem-de-dados)
   - [Iniciativa](#iniciativa)
     - [Começando](#inicio-de-uma-disputa)
     - [Jogadores](#jogadores-entrando)
@@ -26,12 +26,17 @@ Qualquer duvida, sugestão, reporte de bugs ou qualquer outro assunto não exite
     - [Hordas](#hordas)
     - [Batalha](#hora-da-briga)
   - [Controle de dano](#controle-de-dano)
-    - [Definindo a vida máxima](#vida-máxima-dos-jogadores)
     - [Causando dano](#causando-dano)
     - [Recebendo cura](#recebendo-cura)
     - [Desmaio/Morte](#o-participante-caiu)
     - [Retornando a luta](#voltando-a-luta)
     - [Comandos em massa](#danocura-em-massa)
+  - [Grid](#grid)
+    - [Iniciando](#iniciando-o-grid)
+    - [Adicionando Participantes](#adicionando-participantes)
+    - [Movendo Participantes](#movendo-participantes)
+    - [Removendo Participantes](#retirando-participantes)
+    - [Exibindo o Grid](#exibindo-o-grid)
 
 ---
 
@@ -81,7 +86,7 @@ Os detalhes a seguir se aplicam a jogadores e npcs.
 
 #### Modificador positivo
 
-Se meu personagem possui +5 de bônus de iniciativa por exemplo, use **ini +5**.
+Se meu personagem possui +3 de bônus de iniciativa por exemplo, use **ini +5**.
 
 ![](imagens/ini+.png)
 
@@ -123,12 +128,6 @@ Depois de todos participantes rolarem suas iniciativas basta enviar 'batalha' pa
 [Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
 
 Para controle de dano é usado o simbolo $ em conjunto com as informações da ordem de combate.
-
-### Vida máxima dos jogadores
-
-Para facilitar ainda mais o controle do Hp dos jogadores para o mestre, basta pedir que cada um dos seus jogadores envie apenas uma vez o comando **.vida** seguido do valor máximo de vida deles.
-
-A partir do envio deste comando **TODAS** as batalhas que este jogador participar neste canal será exibida a sua vida máxima e sua vida atual.
 
 ### Causando dano
 
@@ -175,5 +174,46 @@ Da mesma forma os outros comandos:
 ![](imagens/revive-em-massa.png)
 
 ![](imagens/cura-em-massa.png)
+
+## Grid
+[Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
+
+Como forma de suporte o bot também conta com um grid basico para auxilio em batalhas.
+
+### Iniciando o Grid
+
+Para criar um Grid basta enviar **.grid;x,y** (X representa a largura e Y a altura), o tamanho máximo é 20x20.
+
+Exemplo:
+
+![](imagens/grid.png)
+
+> Obs: Assim como a iniciativa, cada canal tem seu proprio grid, iniciar um grid apaga o anterior.
+
+### Adicionando Participantes
+
+Para adicionar participantes envie a sigla do participante (máx. 2 caráteres) separado por ';' da letra e número referente a coordenada.
+
+Exemplo:
+
+![](imagens/add-par.png)
+
+### Movendo Participantes
+
+Para mudar um participante de lugar basta reenviar o comando acima com as novas coordenadas.
+
+![](imagens/move-par.png)
+
+### Retirando Participantes
+
+Para retirar um participante basta colocar 0 na coordenada
+
+![](imagens/retira-par.png)
+
+### Exibindo o Grid
+
+Para ver o grid a qualquer momento envie: **.exibegrid**
+
+![](imagens/exibe.png)
 
 [Topo](#bdk-rpg-assistant---bot-de-auxilio-rpg)
