@@ -6,7 +6,7 @@ Seja bem-vindo ao manual do [BDK] RPG ASSISTANT.
 
 > ## Entre no nosso servidor no [Discord](https://discord.gg/XuNnEwYbx4).
 
-> ## Siga nosso [Instagram](https://www.instagram.com/bdk_rpg/).
+> ## Siga nosso [Instagram](https://www.instagram.com/ysrael_dev/).
 
 Este bot tem o intuito de deixar a jogatina a distância um pouco mais simples, no momento conta com apenas essas funções mas olha só, um spoiler, enquanto você lê isso outras funções estão sendo desenvolvidas, acompanhe nosso [Instagram](https://www.instagram.com/bdk_rpg/) para não perder nenhuma novidade.
 
